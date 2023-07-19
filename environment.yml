@@ -1,0 +1,12 @@
+name: CommandLine_Intro2EDirect_March2023
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pip
+  - entrez-direct
+  - pip:
+    - bash_kernel
